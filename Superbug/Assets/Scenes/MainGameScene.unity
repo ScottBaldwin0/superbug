@@ -1057,7 +1057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundLayer: {fileID: 8334549291120846617, guid: d7304b27472eeee42aedd0d2fa3218da,
     type: 3}
-  timer: 8
+  timer: 17.5
 --- !u!1 &1124709076 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3480909155295007045, guid: 78cc98424f27fb44ab0d6a446d723514,
@@ -1148,12 +1148,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197819747}
   m_CullTransparentMesh: 0
---- !u!1 &1234952058 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5272385057407755627, guid: a56bee36613dae2459e573375872937c,
-    type: 3}
-  m_PrefabInstance: {fileID: 5272385058588998161}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1234952059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5272385057407755626, guid: a56bee36613dae2459e573375872937c,
@@ -1496,8 +1490,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a1aba371c77ee4da0f6493ad5c17b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundLayer: {fileID: 1234952058}
-  timer: 7
+  backgroundLayer: {fileID: 5272385057407755627, guid: a56bee36613dae2459e573375872937c,
+    type: 3}
+  timer: 35
 --- !u!4 &1916029253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8334549291120846616, guid: d7304b27472eeee42aedd0d2fa3218da,
