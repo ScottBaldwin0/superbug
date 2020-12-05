@@ -24,27 +24,27 @@ public class BulletSpawnerScript : MonoBehaviour {
 		bulletSpawnerRigidbody2D = GetComponent<Rigidbody2D>();
 	}
 
+	// Calculate inputs and velocity
 	private void Update() {
-
 
 		moveInput = new Vector2(0f, -0.5f);
 		moveVelocity = moveInput * moveSpeed;
 
+		// Not needed? Test
 		moveInput = new Vector2(0f, 0.5f);
 		moveVelocity = moveInput * moveSpeed;
-
 	}
 
-		private void FixedUpdate() {
+	// Set bullet velocity and trigger firing with spacebar
+	private void FixedUpdate() {
 
-			bulletSpawnerRigidbody2D.velocity = moveVelocity;
+		bulletSpawnerRigidbody2D.velocity = moveVelocity;
 
-			spawnerTimer += Time.deltaTime;
+		spawnerTimer += Time.deltaTime;
 
-			if (Input.GetKeyDown("space")) {
-				Instantiate(bulletSpawner, transform.position, Quaternion.identity);
-				spawnerTimer = 0;
-			}
-
+		if (Input.GetKeyDown("space")) {
+			Instantiate(bulletSpawner, transform.position, Quaternion.identity);
+			spawnerTimer = 0;
 		}
 	}
+}
