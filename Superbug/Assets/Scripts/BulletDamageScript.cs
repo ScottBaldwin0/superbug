@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BulletDamageScript : MonoBehaviour
 {
+    public GameObject enemy;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +18,11 @@ public class BulletDamageScript : MonoBehaviour
     {
         
     }
+
+	private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.tag == "Enemy") {
+            Debug.Log("Bullet damge triggered");
+        }
+        
+	}
 }

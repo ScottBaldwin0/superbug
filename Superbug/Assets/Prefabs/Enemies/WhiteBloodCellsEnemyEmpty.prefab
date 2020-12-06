@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7242484354228382263}
   m_Layer: 0
   m_Name: WhiteBloodCellsEnemyEmpty
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
