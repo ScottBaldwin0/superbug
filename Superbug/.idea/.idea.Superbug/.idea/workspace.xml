@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b3f91d-3a38-4780-965b-414369e5b0c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Superbug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Superbug/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyCollisionScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/mainMenuScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lFW8p0wwolBej2mKpiOTtO2LxM" />
@@ -59,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607193228235</updated>
       <workItem from="1607193268116" duration="609000" />
+      <workItem from="1607227419483" duration="179000" />
     </task>
     <servers />
   </component>
@@ -67,6 +70,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
